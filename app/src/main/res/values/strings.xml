@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppCorazonplus</string>
+    <string name="iniciar">\n\n\nSing Up\n\n\n</string>
+    <string name="buttonm1">Sing Up</string>
+    <string name="Name">Name</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Correo">Correo</string>
+    <string name="Username">Username</string>
+    <string name="Phone">Phone</string>
+    <string name="Date">Date</string>
+    <string name="Password">Password</string>
+</resources>

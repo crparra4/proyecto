@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:text="@string/iniciar" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Name" />
+
+        <TextView
+            android:id="@+id/textApellido"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Apellido" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <TextView
+            android:id="@+id/textCorreo"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="@string/Correo" />
+        <TextView
+            android:id="@+id/textUsuario"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Phone"/>
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Date"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Username"/>
+        <TextView
+            android:id="@+id/textPassword"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/Password"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <Button
+            android:id="@+id/buttonSing_Up"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:text="@string/buttonm1" />
+
+    </LinearLayout>
+
+</LinearLayout>
